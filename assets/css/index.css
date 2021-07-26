@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.logg {
+  margin-top: 35px;
+}
+
+.selll {
+  margin-top: 35px;
+  font-family: "Roboto", sans-serif;
+}
+
+.inn {
+  font-size: 50px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.conn {
+  font-size: 30px;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+#form_login {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 990px) {
+  .chann {
+    width: 75rem;
+  }
+}
